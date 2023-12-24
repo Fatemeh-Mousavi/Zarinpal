@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "vazir";
+    src: url(./assets/fonts/ttf/Vazir.ttf);
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    direction: rtl;
+    font-family: "vazir";
+--primary-color:#ffe53b;
+--primary-color-dark:#f1a80b;
+--link-color:#187ff7;
+--text-color:#565657;
+}
+body{
+    
+  color: #565657;
+   background-color: #eee;
+  font-family: "Yekan Bakh";
+  font-size: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main{
+    width: 80%;
+    height: 30rem;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 5px 15px 0 rgba(31, 32, 35, 0.1);
+    border-radius: 10px;
+
+}
+.img-banner{
+    object-fit: contain;
+    border-radius: 10px 0 0 10px;
+}
+ .content-body{
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border:2px solid #e1eaf7;
+}
+.zarinPal-img{
+    width: 7rem;
+    margin: 30px 20px 0px 0px;
+
+}
+.zarinPal-img img{
+    width: 100%;
+}
+.form-number-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aqua; */
+    width: 80%;
+    height: 20rem;
+    
+    margin: auto;
+    padding: 2rem;
+}
+input , p {
+    padding: 0.8rem;
+    border-radius: 5px;   
+    margin-right: 5rem;
+
+}
+input{
+    background-color: #c5dbed;
+    height: 1.5rem;
+    width: 15rem;
+    margin: auto;
+}
+
+.input-number-email{
+   width: 15rem;
+    height: 1.5rem;
+}
+input:focus {
+    border: 2px solid var(--primary-color-dark);
+    padding: 9px 6px;
+  }
+.accept-button{
+    font-size: 15px;
+    margin: 2rem;
+    margin-right: 10rem;
+    background-color: #fff;
+    background-color: #ffe53b;
+    border-radius: 60%;
+    width: 6rem;
+    height: 3rem;
+    color: #565657;
+    cursor: pointer;
+}
+.registery{
+    font-size: 20px;
+    border:2px solid #ffe53b;
+    border-radius:5px;
+    width: 30%;
+    height: 4rem;
+    margin:2rem auto;
+    padding: 2px;
+}
+.registery:hover{
+    box-shadow: 0 5px 15px 0 #f1a80b;
+    
+    
+}
+.star{
+    color: red;
+}
+
+  

@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "vazir";
+    src: url(../assets/fonts/ttf/Vazir.ttf);
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    direction: rtl;
+    font-family: "vazir";
+--primary-color:#ffe53b;
+--primary-color-dark:#f1a80b;
+--link-color:#187ff7;
+}
+body{
+    
+  color: #565657;
+   background-color: #eee;
+  font-family: "Yekan Bakh";
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main{
+    width: 80%;
+    height: 30rem;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 5px 15px 0 rgba(31, 32, 35, 0.1);
+    border-radius: 10px;
+
+}
+.img-banner{
+    width: 60%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+ .content-body{
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border:2px solid #e1eaf7;
+}
+.zarinPal-img{
+    width: 9rem;
+    height: 3rem;
+    margin: 0px 20px ;
+}
+.zarinPal-img img{
+    width: 100%;
+}
+.get-number-email{
+    height: 15rem;
+}
+.accont-zarinPal{
+    font-weight: bold;
+    padding:0rem 4rem;
+}
+.form-number-email{
+    width: 80%;
+    height: 2rem;
+    margin:2rem 2rem;
+}
+.input-number-email{
+   margin-right:20px ; 
+   width: 100%;
+   height: 2rem;
+   background-color:#c5dbed;
+   border-radius: 5px;
+   padding-right:0.5rem ;
+}
+input:focus {
+    border: 2px solid var(--primary-color-dark);
+    padding: 9px 6px;
+  }
+.accept-button{
+    font-size: 15px;
+    margin: 2rem;
+    margin-right: 10rem;
+    background-color: #fff;
+    background-color: #ffe53b;
+    border-radius: 60%;
+    width: 6rem;
+    height: 3rem;
+    color: #565657;
+    cursor: pointer;
+}
+.registery{
+    font-size: 15px;
+    margin:3rem 10rem;
+    color: #565657;
+    cursor: pointer;
+}
+.registery a{
+    color: #4e7abf;
+    
+}
+.fa-arrow-left{
+    margin-right: 5px;
+    cursor: pointer;
+  
+}
+.fa-arrow-left:hover{
+      transform : translateX(-5px) ;
+}
+
+  
